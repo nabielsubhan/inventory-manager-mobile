@@ -4,12 +4,12 @@
 **Kelas   : PBP A**<br>
 
 ## Tugas 7: Elemen Dasar Flutter
-### Perbedaan utama antara *stateless* dan *stateful widget* dalam konteks pengembanngan aplikasi flutter
-* *Stateless Widget*
-  *Stateless widget* adalah suatu widget yang tidak mempunyai *state* atau kondisi yang bisa berubah-ubah sepanjang program berjalan atau bisa dibilang sebagai entitas yang statis. Widget ini cocok digunakan untuk membuat bagian antarmuka yang tidak berubah-ubah jika dikenakan berbagai macam interaksi kepadanya. Karena widget ini tidak akan berubah-ubah, maka pembuatannya hanya dilakukan sekali saja ketika diperlukan.
+### Perbedaan utama antara *stateless* dan *stateful widget* dalam konteks pengembangan aplikasi Flutter
+* *Stateless Widget*<br>
+*Stateless widget* adalah suatu widget yang tidak mempunyai *state* atau kondisi yang bisa berubah-ubah sepanjang program berjalan atau bisa dibilang sebagai entitas yang statis. Widget ini cocok digunakan untuk membuat bagian antarmuka yang tidak berubah-ubah jika dikenakan berbagai macam interaksi kepadanya. Karena widget ini tidak akan berubah-ubah, maka pembuatannya hanya dilakukan sekali saja ketika diperlukan.
 
-* *Stateful Widget*
-  Berbeda dengan *Stateless Widget*, *Stateful Widget* adalah suatu widget yang mempunyai *state* atau kondisi yang dapat berubah-ubah atau merupakan entitas yang dinamis. Widget ini cocok digunakan untuk membuat bagian antarmuka yang perlu berubah ketika dikenakan interaksi kepadanya, seperti button yang berubah warna ketika diklik, dan lain sebagainya. Karena widget ini akan berubah-ubah, maka Flutter akan membuat widget tersebut berkali-kali sesuai dengan perubahan yang terjadi kepada widget tersebut untuk memperlihatkan perubahan yang terjadi. Pengelolaan *Stateful Widget* juga sedikit berbeda dengan *Stateless Widget*, yaitu diperlukannya kelas tambahan yang disebut kelas **State** yang berfungsi untuk mengelola *state* dari suatu widget.
+* *Stateful Widget*<br>
+Berbeda dengan *Stateless Widget*, *Stateful Widget* adalah suatu widget yang mempunyai *state* atau kondisi yang dapat berubah-ubah atau merupakan entitas yang dinamis. Widget ini cocok digunakan untuk membuat bagian antarmuka yang perlu berubah ketika dikenakan interaksi kepadanya, seperti button yang berubah warna ketika diklik, dan lain sebagainya. Karena widget ini akan berubah-ubah, maka Flutter akan membuat widget tersebut berkali-kali sesuai dengan perubahan yang terjadi kepada widget tersebut untuk memperlihatkan perubahan yang terjadi. Pengelolaan *Stateful Widget* juga sedikit berbeda dengan *Stateless Widget*, yaitu diperlukannya kelas tambahan yang disebut kelas **State** yang berfungsi untuk mengelola *state* dari suatu widget.
 
 ### Widget-widget yang digunakan pada tugas kali ini
 * `Scaffold`, mengatur struktur dasar halaman aplikasi, menampilkan AppBar dan Body.
@@ -17,9 +17,9 @@
 * `Text`, untuk menampilkan string teks.
 * `SingleChildScrollView`, menampilkan suatu widget yang isinya dapat di-*scroll*.
 * `Padding`, untuk memberikan *padding* yang ditentukan kepada child.
-* `Column `, untuk menampilkan *children* secara vertikal.
+* `Column`, untuk menampilkan *children* secara vertikal.
 * `GridView`, untuk menampilkan *children* dengan layout *grid*.
-* `ItemCard`, *stateless widget* berisi widget-widget lain untuk membentuk suatu kesatuan *card* yang akan menjadi suatu template.1
+* `ItemCard`, *stateless widget* berisi widget-widget lain untuk membentuk suatu kesatuan *card* yang akan menjadi suatu template.
 * `Material`, untuk memberikan design kepada child.
 * `InkWell`, untuk memungkinkan sentuhan responsif pada child.
 * `SnackBar`, untuk menampilkan pesan singkat di bagian bawah layar.
@@ -28,7 +28,7 @@
 * `Icon`, untuk menampilkan ikon.
 
 ### Implementasi Checklist Tugas 7
-1. Pergi ke direktori dimana aplikasi ini ingin dibuat, lalu buka command prompt pada direktori tersebut.
+1. Pergi ke direktori dimana aplikasi ini ingin dibuat, lalu buka *command prompt* pada direktori tersebut.
 2. Membuat proyek Flutter baru dengan nama `inventory_manager` dengan menggunakan command berikut.
    ```
    flutter create inventory_manager
