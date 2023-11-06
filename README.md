@@ -20,7 +20,7 @@ Berbeda dengan *Stateless Widget*, *Stateful Widget* adalah suatu widget yang me
 * `Column`, untuk menampilkan *children* secara vertikal.
 * `GridView`, untuk menampilkan *children* dengan layout *grid*.
 * `ItemCard`, *stateless widget* berisi widget-widget lain untuk membentuk suatu kesatuan *card* yang akan menjadi suatu template.
-* `Material`, untuk memberikan design kepada child.
+* `Material`, untuk memberikan design kepada child berdasarkan desain dari Material Design.
 * `InkWell`, untuk memungkinkan sentuhan responsif pada child.
 * `SnackBar`, untuk menampilkan pesan singkat di bagian bawah layar.
 * `Container`, untuk mengatur tata letak, *style*, dan properti lainnya pada child.
