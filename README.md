@@ -192,3 +192,12 @@ Berbeda dengan *Stateless Widget*, *Stateful Widget* adalah suatu widget yang me
    ];
    ```
 3. Mengubah baris kode pada `Widget build` di class `ItemCard` pada bagian `color: Colors.indigo,` menjadi `color: item.color,`.
+   ```dart
+   class ItemCard extends StatelessWidget {
+     ...
+     @override
+     Widget build(BuildContext context) {
+       return Material(
+         color: item.color,
+         ...
+   ```
